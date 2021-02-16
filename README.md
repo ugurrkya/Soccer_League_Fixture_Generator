@@ -8,7 +8,6 @@ An Android application which determines match fixture of a soccer league.
 - View matches per week with right and left swipe
 - Dark mode support
 - Drawing fixture with applied algorithm
--  
 
 # API
 Mock API is used to create teams in the league. 

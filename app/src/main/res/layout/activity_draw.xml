@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_rL"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    tools:context=".view.DrawActivity">
+
+    <TextView
+        android:id="@+id/week_count"
+        android:background="@drawable/download_back"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:text="Week"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="15dp"
+        android:id="@+id/rv_fixture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/week_count"
+        app:layout_constraintEnd_toEndOf="@id/week_count"
+        app:layout_constraintStart_toStartOf="@id/week_count"
+        app:layout_constraintTop_toTopOf="@id/week_count" />
+
+
+<!--
+ <Button
+        android:text="Previous"
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:text="Next"
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />-->
+</LinearLayout>

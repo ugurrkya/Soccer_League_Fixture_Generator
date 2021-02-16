@@ -3,4 +3,4 @@ An Android application which determines match fixture of a soccer league.
 
 
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ikeQqeGR1PY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Fixture Generator](https://yt-embed.herokuapp.com/embed?v=ikeQqeGR1PY-Y)](https://www.youtube.com/watch?v=ikeQqeGR1PY-Y "Everything Is AWESOME")
